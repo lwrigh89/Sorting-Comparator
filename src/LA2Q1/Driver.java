@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class Driver {
     public static void main(String[] args) {
-        myHeader();
+        
         System.out.println();
 
         int sz = 50000; //size of array
@@ -103,23 +103,5 @@ public class Driver {
         myFooter();
     }
 
-    public static void myHeader() {
-        System.out.println("********************************************");
-        System.out.println("Names: Liam Wright and Ronin Williams-Young.");
-        System.out.println("Student Numbers: 251161188 and 251162515");
-        System.out.println("Goal of this project: Implement generic sorting algorithms and test them by sorting a random array of integers and printing out the time each algorithm took to sort it.");
-        System.out.println("********************************************");
-    }
-
-    public static void myFooter() {
-        Date date = new Date();
-        SimpleDateFormat daySimpleDateFormat = new SimpleDateFormat("MMMM dd, yyyy");
-        SimpleDateFormat timeSimpleDateFormat = new SimpleDateFormat("hh:mm a");
-
-        System.out.println("********************************************");
-        System.out.println("This is " + timeSimpleDateFormat.format(date) + " on " + daySimpleDateFormat.format(date));
-        System.out.println("Completion of Lab Assignment 2 is successful!");
-        System.out.println("Good bye! Liam Wright, Ronin Williams-Young.");
-        System.out.println("********************************************");
-    }
+    
 }
