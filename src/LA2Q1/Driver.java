@@ -100,7 +100,7 @@ public class Driver {
         System.arraycopy(backUpIntegers, 0, integers, 0, sz);
         System.out.println();
 
-        myFooter();
+        
     }
 
     
